@@ -30,3 +30,5 @@ The model training and prediction phase utilises the satellite unet model implem
 * scikit-image
 * PIL
 * matplotlib
+
+The script is tested with keras 2.3.1 with tensorflow 1.15.2 
