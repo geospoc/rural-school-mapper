@@ -15,6 +15,18 @@ Remotely Sensed Imagery can be used for multiple applications and amongst which 
 The data for the schools is input in the form of POI's in the csv file. The csv file contains necessary Latitude and Longitude and accordingly the script loads csv file and downloads the tiles at zoom level 17 from mapbox.
 
 
-# Maks Generation
+# Mask Generation
 
 Masks for each image downloaded through the mapbox are generated using python utilising **roi-poly** package.
+
+
+# Model Training
+
+The model training and prediction phase utilises the satellite unet model implemented through **keras-unet** package.The script utilises the following packages :
+
+
+* keras
+* keras-unet
+* scikit-image
+* PIL
+* matplotlib
