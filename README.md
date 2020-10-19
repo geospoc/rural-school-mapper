@@ -1,5 +1,5 @@
 # Objective
-Detection of Zilla Parishat(ZP) School(s) from Satellite basemap imagery under the Guidence of UNICEF Data Science Team (https://www.unicef.org/innovation/innovation-fund-geospoc-geospatial)
+Detection of Zilla Parishad(ZP) School(s) from Satellite basemap imagery under the Guidence of UNICEF Data Science Team (https://www.unicef.org/innovation/innovation-fund-geospoc-geospatial)
 
 # Licence
 GNU AGPLv3 https://choosealicense.com/licenses/agpl-3.0/
