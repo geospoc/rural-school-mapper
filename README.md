@@ -1,6 +1,8 @@
-# unc-sch-01
-Github Repo for the UNICEF School project
+# Objective
+Detection of Zilla Parishat(ZP) School(s) from Satellite basemap imagery under the Guidence of UNICEF Data Science Team (https://www.unicef.org/innovation/innovation-fund-geospoc-geospatial)
 
+# Licence
+GNU AGPLv3 https://choosealicense.com/licenses/agpl-3.0/
 
 # School Detection using Remotely Sensed Satellite Imagery
 
