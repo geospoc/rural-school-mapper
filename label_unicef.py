@@ -23,8 +23,8 @@ my_roi = RoiPoly(color='r')
 mask = my_roi.get_mask(im)
 f_img=Image.fromarray(mask)
 
-#Output path
+#Output path of mask
 path="/mask/"
 
-# Save Image to the path
+# Save mask to the path
 f_img.save(path+dpath.split('/')[2].split('.')[0]+".jpg")
