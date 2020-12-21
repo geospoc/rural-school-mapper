@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#@author: SHUBHAM
+#@author: SHUBHAM SHARMA
 #This script is covered under GNU AGPL License.
 #This script utilises kerasunet package for training school data.
 #It utilises Tensorflow 1.15.2.

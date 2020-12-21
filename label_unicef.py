@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#@author: SHUBHAM
+#@author: SHUBHAM SHARMA
 # This script is covered under GNU AGPL License.
 #This script deals with labelling mapbox tiles 
 #For the purpose of labelling each file needs to be open separately and labelled

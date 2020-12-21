@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-#@author: SHUBHAM
+#@author: SHUBHAM SHARMA
 #This code is covered under GNU AGPL license
 #This script downloads the mapbox tiles as per the Points of interest(POI's)
 #stored in Excel file(.xlsx).
