@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Oct 19 13:49:44 2020
-
-@author: SHUBHAM
-"""
+#@author: SHUBHAM
+#This script is covered under GNU AGPL License.
+#This script utilises kerasunet package for training school data.
+#It utilises Tensorflow 1.15.2.
+# For appropriate training utilise adequate hyperparameters.
 
 # Importing necessary libraries
 import numpy as np

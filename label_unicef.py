@@ -1,9 +1,13 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Oct 19 16:54:58 2020
+#@author: SHUBHAM
+# This script is covered under GNU AGPL License.
+#This script deals with labelling mapbox tiles 
+#For the purpose of labelling each file needs to be open separately and labelled
+#The script requires RoiPoly package in order to label the images
+#Utilise the script to label each image via CLI(command Line interface)
+#On CLI, the user should use command :
+#python label_unicef.py
 
-@author: SHUBHAM
-"""
 
 from PIL import Image
 import matplotlib.pyplot as plt
