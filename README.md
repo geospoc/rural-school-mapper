@@ -3,6 +3,7 @@ Detection of Zilla Parishad(ZP) School(s) from Satellite basemap imagery under t
 
 # Licence
 GNU AGPLv3 https://choosealicense.com/licenses/agpl-3.0/
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 # School Detection using Remotely Sensed(RS) Satellite Imagery
 
