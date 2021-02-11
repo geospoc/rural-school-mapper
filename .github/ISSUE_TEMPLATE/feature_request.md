@@ -2,7 +2,7 @@
 name: Feature request
 about: Suggest an idea for this project
 title: ''
-labels: ''
+labels: "enhancement  \U0001F389"
 assignees: ''
 
 ---
