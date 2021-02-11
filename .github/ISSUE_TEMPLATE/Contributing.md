@@ -13,5 +13,6 @@ Contributing guidelines
    - Desired outcome of change
    - Specific cases to be considered.
 
+- Maintainers will respond within 2 days for the resolution of bugs
 
 
