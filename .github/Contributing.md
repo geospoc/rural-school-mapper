@@ -16,3 +16,4 @@ Contributing guidelines
 - Maintainers will respond within 2 days for the resolution of bugs.
 
 
+-Issue Templates are available at [link]: https://github.com/geospoc/unc-sch-01/tree/master/.github/ISSUE_TEMPLATE
