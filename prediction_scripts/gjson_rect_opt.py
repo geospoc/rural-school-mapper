@@ -2,7 +2,7 @@
 """
 Created on Mon Apr  5 16:13:16 2021
 
-Script for optimisng rectangular envelopes around polygons.
+Script for optimising rectangular envelopes around polygons.
 Only those rectangles are retained which have length less than 200 m.
 
 @author: SHUBHAM
@@ -25,7 +25,7 @@ orig=sorted(glob.glob('D:\\Final_ahmednagar_polygons\\*'), key=lambda x:float(re
 c=0
 
 for file in orig:
-    break
+    #break
     
     rd=gpd.read_file(file)
     dfr=rd.copy()
