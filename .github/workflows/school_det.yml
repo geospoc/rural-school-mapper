@@ -26,6 +26,9 @@ jobs:
       run: |
         pwd
     - name: Test with coveralls
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}     
       run: |
         coveralls
-      
+
+     
