@@ -9,6 +9,9 @@ jobs:
       matrix:
         python-version: [3.7]
 
+   
+  env :
+     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   
     steps:
     - uses: actions/checkout@v2
       with:
