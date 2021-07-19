@@ -19,7 +19,7 @@ The data for the schools is input in the form of POI's in the csv file. The csv 
 
 # Mask Generation
 
-Mask for each image(tile) is obtained using **roi-poly** package in Python
+Mask for each image(tile) is obtained using **roi-poly** package in Python.The data path inside the directory needs to be changed inside **label_unicef.py** file as **dpath** and target directory where mask is stored as **mpath** then the image will be plotted on the window and user can label out the area for school.
 
 
 # Model Training
@@ -33,3 +33,4 @@ The model training and prediction phase utilises the satellite unet model implem
 * matplotlib
 
 The script is tested with keras 2.3.1 with tensorflow 1.15.2 
+For inference,the weights are available inside the weights directory.
