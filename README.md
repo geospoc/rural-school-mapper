@@ -32,5 +32,5 @@ The model training and prediction phase utilises the satellite unet model implem
 * PIL
 * matplotlib
 
-The script is tested with keras 2.3.1 with tensorflow 1.15.2 
+The script is tested with keras 2.3.1 with tensorflow 1.15.2. 
 For inference,the weights are available inside the weights directory.
