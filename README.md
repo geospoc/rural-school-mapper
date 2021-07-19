@@ -14,7 +14,7 @@ RS Imagery can be used for multiple applications amongst which building and road
 
 # Satellite Data Download Mechanism
 
-The data for the schools is input in the form of POI's in the csv file. The csv file contains necessary Latitude and Longitude and accordingly the script loads csv file and downloads the tiles at zoom level 17 from Mapbox.
+The data for the schools is input in the form of POI's in the csv file. The user has to input the csv file for downloading mapbox  data at specific Latitude & Longitude for training data.The csv file contains necessary Latitude and Longitude and accordingly the script loads csv file and downloads the tiles at zoom level 17 from Mapbox.
 
 
 # Mask Generation
