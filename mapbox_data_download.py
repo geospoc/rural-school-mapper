@@ -67,6 +67,7 @@ def mapbox_download(poi,MAT):
 
 def test_download():
     test=pd.read_excel(os.getenv("DATA")
+    print(test)
     #access token
     MAT=os.getenv("MAT")
     assert mapbox_download(test,MAT)==[200]*test.shape[0]
