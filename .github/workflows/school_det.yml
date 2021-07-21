@@ -19,12 +19,11 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip install -r requirements.txt
-    - name: Set Environment variables
+        python -m pip install --upgrade pip install -r requirements.txt 
+    - name: Test with print
       env:
         MAT :${{ secrets.MAT }}  
         DATA :/home/runner/work/rural-school-mapper/rural-school-mapper/mapbox_test/
-    - name: Test with print
       run: |
         pwd
         coverage run -m pytest mapbox_data_download.py
