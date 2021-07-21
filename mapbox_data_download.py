@@ -69,7 +69,7 @@ def test_download():
     test=pd.read_excel(os.getenv("DATA")+'mapbox_data.csv')
     
     #access token
-    MAT=os.getenv("MAT")
+    MAT=secret = {{ secret.MAT }}
     assert mapbox_download(test,MAT)==[200]*test.shape[0]
     os.remove(outpath +str(index)+'.'+str(lat_long[1]) + '.' + str(lat_long[0]) + '.png')
     
