@@ -71,7 +71,7 @@ def test_download():
     #access token
     MAT=os.getenv("MAT")
     assert mapbox_download(test,MAT)==[200]*test.shape[0]
-    os.remove(outpath +str(index)+'.'+str(lat_long[1]) + '.' + str(lat_long[0]) + '.png')
+    
     
     
 
