@@ -66,10 +66,10 @@ def mapbox_download(poi,MAT):
         
 
 def test_download():
-    test=pd.read_csv(os.getenv("DATA")+'mapbox_data.csv')
-    print("CSV:  ",os.getenv("DATA")+'mapbox_test.csv')
+    test=pd.read_csv(os.getenv("DATA")+'mapbox_test.csv')
+    #print("CSV:  ",os.getenv("DATA")+'mapbox_test.csv')
     #access token
-    MAT=secret = {{ secret.MAT }}
+    MAT=os.getenv("MAT")
     assert mapbox_download(test,MAT)==[200]*test.shape[0]
     os.remove(outpath +str(index)+'.'+str(lat_long[1]) + '.' + str(lat_long[0]) + '.png')
     
