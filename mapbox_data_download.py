@@ -66,7 +66,7 @@ def mapbox_download(poi,MAT):
         
 
 def test_download():
-    test=pd.read_excel(os.getenv("DATA")+'mapbox_data.csv')
+    test=pd.read_csv(os.getenv("DATA")+'mapbox_data.csv')
     print("CSV:  ",os.getenv("DATA")+'mapbox_test.csv')
     #access token
     MAT=secret = {{ secret.MAT }}
