@@ -18,9 +18,9 @@ import pandas as pd
 import mercantile
 import requests
 import shutil
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
-load_dotenv('/home/runner/work/rural-school-mapper/rural-school-mapper/.env')
+#load_dotenv('/home/runner/work/rural-school-mapper/rural-school-mapper/.env')
 #Create an output folder to store images
 # Read POI's from Excel file containing Fields 'Latitude' and 'Longitude'
 def mapbox_download(poi,MAT):
@@ -28,7 +28,7 @@ def mapbox_download(poi,MAT):
     #poi=pd.read_excel("/POI's.xlsx")
     #path to store images
     print(poi.shape)
-    outpath=os.getenv("OUT_DIR")
+    outpath=os.getenv("DATA")
     stat_list=[]
     
     for index,df in poi.iterrows():
@@ -66,8 +66,8 @@ def mapbox_download(poi,MAT):
         
 
 def test_download():
-    test=pd.read_excel(os.getenv("DATA")
-    #print(test)
+    test=pd.read_excel(os.getenv("DATA")+'mapbox_data.csv')
+    
     #access token
     MAT=os.getenv("MAT")
     assert mapbox_download(test,MAT)==[200]*test.shape[0]
