@@ -28,7 +28,7 @@ jobs:
       env:
           COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}  
           MAT :${{ secrets.MAT }}  
-          DATA :/home/runner/work/rural-school-mapper/rural-school-mapper/mapbox_test/
+          DATA :${{/home/runner/work/rural-school-mapper/rural-school-mapper/mapbox_test/}}
       run: |
         coveralls
 
