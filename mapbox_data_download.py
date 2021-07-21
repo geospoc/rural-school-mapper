@@ -34,7 +34,7 @@ def mapbox_download(poi,MAT):
     for index,df in poi.iterrows():
         
         lat_long=[df['Latitude'],df['Longitude']]
-        delta = 0.0005
+        delta = 0.00005                  #0.0005 for downloading as it will give all the tiles related to the specified lat-lon
         top_left = [lat_long[0]+delta, lat_long[1]-delta]
         bottom_right = [lat_long[0]-delta, lat_long[1]+delta]
         z = 17 # Zoom level
