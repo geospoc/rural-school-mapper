@@ -18,14 +18,14 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
-      env:
-          MAT:${{ secrets.MAT }}  
       run: |
         python -m pip install --upgrade pip install -r requirements.txt 
     - name: Test with print
+      env:
+           MAT: ${{ secrets.MAT }} 
       run: |
         pwd
-        coverage run -m pytest mapbox_data_download.py
+        coverage run -m pytest mapbox_data_download.py       
     - name: Test with coveralls
       env:
           COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}       
