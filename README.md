@@ -5,6 +5,7 @@ Detection of Zilla Parishad(ZP) School(s) from Satellite basemap imagery under t
 GNU AGPLv3 https://choosealicense.com/licenses/agpl-3.0/
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![Coverage Status](https://coveralls.io/repos/github/geospoc/rural-school-mapper/badge.svg?branch=master)](https://coveralls.io/github/geospoc/rural-school-mapper?branch=master)
+
 # School Detection using Remotely Sensed(RS) Satellite Imagery
 
 RS Imagery can be used for multiple applications amongst which building and road detection are common. But School detection is one of the complex problems that needs to be addressed given the variety of features they cover. This repository marks the begining of the school detection project in this direction.
