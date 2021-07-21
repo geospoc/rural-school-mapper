@@ -22,8 +22,8 @@ jobs:
         python -m pip install --upgrade pip install -r requirements.txt 
     - name: Test with print
       env:
-        MAT :${{ secrets.MAT }}  
-        DATA :/home/runner/work/rural-school-mapper/rural-school-mapper/mapbox_test/
+        MAT:${{ secrets.MAT }}  
+        DATA:/home/runner/work/rural-school-mapper/rural-school-mapper/mapbox_test/
       run: |
         pwd
         coverage run -m pytest mapbox_data_download.py
