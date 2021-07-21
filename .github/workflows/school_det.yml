@@ -23,6 +23,7 @@ jobs:
     - name: Test with print
       env:
            MAT: ${{ secrets.MAT }} 
+           DATA: /home/runner/work/rural-school-mapper/rural-school-mapper/mapbox_test/
       run: |
         pwd
         coverage run -m pytest mapbox_data_download.py       
