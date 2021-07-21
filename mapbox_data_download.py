@@ -13,7 +13,7 @@ Created on Mon Jan 18 13:31:13 2021
 #stored in Excel file(.xlsx).
 #The mapbox access token for the account is requored to access the raster API
 
-
+import os
 import pandas as pd
 import mercantile
 import requests
