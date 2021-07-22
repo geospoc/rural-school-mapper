@@ -26,16 +26,18 @@ python label_unicef.py
 
 ```
 
+Then,user can label the image which is plotted as a matplotlib plot.
+
 
 # Model Training
 
-The model training and prediction phase utilises the satellite unet model implemented through **keras-unet** package.The script utilises the following packages :
+The model training and prediction phase utilises the satellite unet model implemented through **keras-unet** package.The script utilises the following packages with their versions :
 
-* keras
-* keras-unet
-* scikit-image
-* PIL
-* matplotlib
+* keras (2.3.1)
+* keras-unet (1.15.2)
+* scikit-image (0.16.2)
+* pillow (8.2.0)
+* matplotlib (3.3.4)
 
 The script is tested with keras 2.3.1 with tensorflow 1.15.2. 
 For inference,the weights are available inside the weights directory.
@@ -43,6 +45,9 @@ For inference,the weights are available inside the weights directory.
 
 #Requirements
 
-The requirements for the 
+The packages required are mentioned in **requirements.txt** ,these packages are in addition to the ones mentioned above in the **Model Training** section.Further,for testing purposes,**coveralls**,**coverage.py** and **pytest** are utilised.
+
+
+ 
 
 
