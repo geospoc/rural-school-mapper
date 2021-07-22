@@ -20,10 +20,11 @@ The data for the schools is input in the form of POI's in the csv file. The user
 # Mask Generation
 
 Mask for each image(tile) is obtained using **roi-poly** package in Python.The data path inside the directory needs to be changed inside **label_unicef.py** file as **dpath** and target directory where mask is stored as **mpath** then the image will be plotted on the window and user can label out the area for school.On the console,the user has to run :
-'''
+
+```
 python label_unicef.py
 
-'''
+```
 
 
 # Model Training
