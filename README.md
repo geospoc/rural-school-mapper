@@ -44,7 +44,7 @@ The script is tested with keras 2.3.1 with tensorflow 1.15.2.
 For inference,the weights are available inside the weights directory.
 
 
-#Requirements
+# Requirements
 
 The packages required are mentioned in **requirements.txt** ,these packages are in addition to the ones mentioned above in the **Model Training** section.Further,for testing purposes,**coveralls**,**coverage.py** and **pytest** are utilised.
 
