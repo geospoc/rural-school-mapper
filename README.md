@@ -33,6 +33,7 @@ Then,user can label the image which is plotted as a matplotlib plot.
 
 The model training and prediction phase utilises the satellite unet model implemented through **keras-unet** package.The script utilises the following packages with their versions :
 
+* python (3.7)
 * keras (2.3.1)
 * keras-unet (1.15.2)
 * scikit-image (0.16.2)

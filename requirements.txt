@@ -3,4 +3,3 @@ mercantile==1.1.6
 pytest==6.2.2
 coverage==5.3
 coveralls==3.0.0
-python-dotenv==0.7.0
